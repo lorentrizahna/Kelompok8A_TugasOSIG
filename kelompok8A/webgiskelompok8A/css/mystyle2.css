@@ -1,0 +1,127 @@
+
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+
+
+
+
+#container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+/*** ================= SCORLL BAR =====================***/
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+body {
+  padding-top: 63px;
+  background: var(--bg);
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin: 0;
+}
+
+.main {
+  min-height: 100vh;
+  transition: filter 0ms ease-in-out 30ms;
+}
+
+.heading{
+    text-align: center;
+    color:#fff;
+    padding-bottom: 3rem;
+    font-size: 40px;
+}
+
+.heading span{
+    color:var(--main-color);
+  }
+
+
+
+/*** ================= SECTION =====================***/
+section{
+    padding:2rem 7%;
+
+}
+
+
+/*** ================= about.html =====================***/
+.section1 {
+  height:14vh;
+  display: flex;
+  background: var(--black);
+
+}
+
+/*** ================= bagian 1=====================***/
+
+.about1 .row1{
+    display :block;
+    align-items: justify;
+    justify-content:space-between;
+    background:var(--black);
+    flex-wrap: wrap;
+}
+
+.about1 .row1 .image1{
+}
+
+.about1 .row1 .image1 img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.about1 .row1 .content1{
+    padding:2rem;
+}
+
+.about1 .row1 .content1 h1{
+    font-size: 2rem;
+    color:#fff;
+    padding:20px 0;
+    align-items: center;
+    justify-content: center;
+}
+.about1 .row1 .content1 h2{
+    font-size: 1rem;
+    color:#fff;
+    padding:0px 0;
+    align-items: center;
+    justify-content: center;
+}
+.about1 .row1 .content1 p{
+    font-size: 1rem;
+    color:#ccc;
+    padding-top: 5px;
+    padding-bottom :20px;
+    line-height: 1.8;
+    display content: center;
+}
+.about1 .row1 .content1 span{
+   color:var(--main-color);
+}

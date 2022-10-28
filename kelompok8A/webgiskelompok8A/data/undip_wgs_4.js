@@ -1,0 +1,1 @@
+var json_undip_wgs_4 = {"type":"FeatureCollection","name":"undip_wgs_4","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"Id":"1","Y":-7.05144,"X":110.44036,"Nama":"Universitas Diponegoro"},"geometry":{"type":"Point","coordinates":[110.4403607,-7.051438382]}}]}

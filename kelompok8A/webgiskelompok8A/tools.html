@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+        <!-- bootstrap css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- font awesome css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+
+
+        <!-- mystyle css -->
+        <link rel="stylesheet" href="css/mystyle2.css">
+        <style >
+        .btn-primary {
+        color: var(--button-color);
+        background-color: var(--button-background-color);
+        border-radius: var(--border-radius);
+        }
+
+        .btn-primary:hover {
+        box-shadow: inset 0 0 0 20rem var(--darken-1);
+        }
+
+        .btn-primary:active {
+        box-shadow: inset 0 0 0 20rem var(--darken-2),
+          inset 0 3px 4px 0 var(--darken-3),
+          0 0 1px var(--darken-2);
+        }
+
+        .btn-primary:disabled,
+        .btn-primary.is-disabled {
+        opacity: .5;
+        }
+
+         </style>
+
+        <!-- title -->
+        <title> WebGIS | Kelompok 8A </title>
+    </head>
+
+    <body>
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+          <a class="navbar-brand" href="#">
+              Kelompok 8A
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li>
+                      <button class="btn btn-primary mb1 black bg-silver">
+                        <a href="./about.html" class="fa fa-question-circle white">&nbsp;&nbsp;About</a>
+                      </button>
+                  </li>
+
+                  <li >
+                    <button class="btn btn-primary mb1 black bg-silver">
+                      <a href="./tools.html" class="fa fa-wrench white">&nbsp;&nbsp;Tools</a>
+                    </button>
+                  </li>
+
+                  <li >
+                    <button class="btn btn-primary mb1 black bg-silver">
+                      <a href="./index.html" class="fa fa-globe white">&nbsp;&nbsp;Map </a>
+                    </button>
+                  </li>
+
+                  <li >
+                    <button class="btn btn-primary mb1 black bg-silver">
+                      <a href="../index.html" class="fa fa-window-maximize">&nbsp;&nbsp;Home </a>
+                    </button>
+                  </li>
+              </ul>
+          </div>
+
+      </nav>
+
+
+        <!-- ========================== -->
+        <section class="about1" id="about1">
+
+            <h1 class="heading"> <span>Pengenalan Fitur Peta Persebaran Penginapan</span>  <br> Di Wilayah Universitas Diponegoro </br></h1>
+
+            <div class="row1">
+                <div class="content1">
+                    <h1>Fitur yang ditampilkan pada <span>WebGIS</span> Kelompok 8A</h1>
+                    <span><h2>1. Tampilan Awal</h2></span>
+                    <p align="justify"> Berikut adalah tampilan awal pada web yang kami buat. Berisi tentang layers, basemaps, serta tools yang dapat digunakan oleh user untuk memudahkan dalam pencarian penginapan yang paling sesuai.</p>
+                    <img src="images/tools/tampilanawal.jpg" width="60%" height="60%" >
+                    <br></br>
+
+                    <span><h2>2. navigation Bar</h2></span>
+                    <p align="justify"> Tombol berikut berisi mengenai beberapa keterangan seperti <span>"About"</span> yaitu berisi tentang keterangan mengenai peta penginapan, <span>"Tools"</span> yaitu berisi tentang penjelasan tiap fitur yang ada di aplikasi map ini, dan <span>"Map"</span> yaitu berisi tentang tampilan awal aplikasi web GIS ini. Namun pada navbar terdapat kekurangan yaitu setiap tombol harus di klik kanan lalu <i>open in new tab</i> untuk membuka tiap panelnya.</p>
+                    <img src="images/tools/navbar.jpg" width="15%" height="15%">
+                    <br></br>
+
+                    <span><h2>3. Layers</h2></span>
+                    <p align="justify"> Tombol berikut berisi mengenai kumpulan layer dan basemap yang digunakan untuk memudahkan user mengenali kondisi topografi atau keadaan nyata. Setiap layer dapat diaktif dan nonaktifkan sesuai dengan keinginan pengguna.</p>
+                    <p><img src="images/tools/layers.jpg" width="5%" height="5%"> ---->>
+                    <img src="images/tools/layers2.jpg" width="15%" height="15%"></p>
+                    <br></br>
+
+                    <span><h2>4. Zoom</h2></span>
+                    <p align="justify"> Tombol berikut digunakan untuk zoom in dan zoom out peta.</p>
+                    <img src="images/tools/zoom.jpg" width="5%" height="5%">
+                    <br></br>
+
+                    <span><h2>5. User Location</h2></span>
+                    <p align="justify"> Tombol berikut digunakan untuk mengetahui posisi user dengan syarat user mengijinkan aplikasi untuk mencari lokasi berdasarkan perangkat yang digunakan saat mengakses.</p>
+                    <img src="images/tools/userlocation.jpg" width="5%" height="5%">
+                    <br></br>
+
+                    <span><h2>6. Linear Measure Distance</h2></span>
+                    <p align="justify"> Tombol berikut digunakan untuk jarak linier dari titik satu ke titik lain. Fitur ini memudahkan bagi pengguna untuk mengetahui jarak dari posisi user ke tempat penginapan yang dituju.</p>
+                    <p><img src="images/tools/linearmeasure.jpg" width="15%" height="15%"> ---->>
+                    <img src="images/tools/linearmeasure2.jpg" width="15%" height="15%"></p>
+                    <br></br>
+
+                    <span><h2>7. Search on Map</h2></span>
+                    <p align="justify"> Tombol berikut digunakan untuk melakukan pencarian terhadap attribut yang terindex dengan basemaps. Sehingga user dapat mencari tempat atau lokasi paling familiar untuk memudahkan dalam pencarian alamat user atau penginapan.</p>
+                    <img src="images/tools/searchmap.jpg" width="5%" height="5%">
+                    <br></br>
+
+                    <span><h2>8. Search on Attribut</h2></span>
+                    <p align="justify"> Tombol berikut digunakan untuk melakukan pencarian terhadap attribut tabel yang ada pada layers penginapan berdasarkan nama peginapannya.</p>
+                    <img src="images/tools/searchattr.jpg" width="15%" height="15%">
+                    <br></br>
+
+                    <span><h2>9. Clustering </h2></span>
+                    <p align="justify"> Fitur berikut digunakan untuk mengetahui berapa point penginapan yang ada pada suatu area. Pada gambar berikut menunjukkan angka 2 berarti pada are tersebut terdapat 2 penginapan  yang berdekatan dan angka 6 berarti pada are tersebut terdapat 6 penginapan yang berdekatan. Fitur ini secara otomatis ter-generate pada maps sesuai dengan skala zoom.</p>
+                    <img src="images/tools/cluster.jpg" width="30%" height="30%">
+                    <br></br>
+
+                    <span><h2>10. Routing</h2></span>
+                    <p align="justify"> Fitur berikut digunakan untuk mengetahui rute terdekat melalui akses jalan utama untuk meraih ke tempat yang dicari. Dimana acuan untuk awal rute berada pada Kampus Universitas Diponegoro. Sehingga ketika mahasiswa ingin melakukan pencarian dengan parameter jarak terdekat dengan kampus maka fitur ini dapat dijadikan pertimbangan dalam pemilihan lokasi penginapan. Cara penggunaannya yaitu dengan megeklik jalan pada map maka proses routing dari titik acuan awal (Kampus UNDIP) akan secara otomatis bergerak dan menunjukkan hasil rutenya.</p>
+                    <img src="images/tools/routing.jpg" width="65%" height="65%">
+                    <br></br>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+    </body>
+</html>
